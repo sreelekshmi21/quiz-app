@@ -1,0 +1,47 @@
+.app{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-menu,
+.quiz,
+.endscreen{
+    width:500px;
+    height: 500px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    display: flex;
+    color:#fff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-menu button,
+.options button,
+.endscreen button,
+.next button{
+    width:300px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    border:none;
+
+}
+.options{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.next{
+    margin-top:25px;
+}
+.next button{
+    background-color:thistle;
+}
