@@ -41,7 +41,26 @@
 }
 .next{
     margin-top:25px;
+    display: flex;
+    
 }
 .next button{
+    width: 200px;
     background-color:thistle;
 }
+ul.options li.active{
+    background-color:rgb(144, 131, 77)
+}
+ul.options li{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 250px;
+    background-color: #574c4c;
+}
+
