@@ -17,6 +17,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 45px;
+}
+.dark-theme{
+    background-color: rgb(18, 22, 22);
+    color:#fff;
+}
+.dark-theme .main-menu{
+    background-color: #e1cb56;
 }
 .main-menu button,
 .options button,
@@ -29,7 +37,6 @@
     border-radius: 5px;
     margin: 5px;
     border:none;
-
 }
 .options{
     width:100%;
@@ -37,12 +44,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 .next{
     margin-top:25px;
-    display: flex;
-    
+    display: flex;    
 }
 .next button{
     width: 200px;
